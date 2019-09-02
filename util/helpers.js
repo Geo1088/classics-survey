@@ -108,7 +108,8 @@ const responseHelpers = {
 		if (message instanceof Error) {
 			message = message.toString();
 		}
-		this.json(status, {status, message});
+		this.writeHead(status);
+		this.end(message);
 	},
 	empty (status = 204) {
 		this.writeHead(status);

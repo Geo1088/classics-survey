@@ -39,8 +39,9 @@ apiApp.post('/response', async (request, response) => {
 	}
 	try {
 		const body = await request.body();
-		if (!body.match(/^(\d{1,8},){0,9}\d{1,8}$/)) {
-			response.error(400, 'Invalid response (yell at /u/geo1088)');
+		if (body && !body.match(/^(\d{1,8},){0,9}\d{1,8}$/)) {
+			response.error(400, 'Invalid request (did you select more than 10 shows?)');
+			return;
 		}
 		const me = await getMe(request);
 		db.updateUserResponse({
