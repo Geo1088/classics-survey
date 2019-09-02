@@ -6,7 +6,7 @@
 				<p>Why are you here?</p>
 				<p><a href="/auth/reddit" class="button is-primary">Fill out the survey!</a></p>
 			</div>
-			<pre>{{info}}</pre>
+			<!-- <pre>{{info}}</pre> -->
 		</div>
 	</section>
 </template>
