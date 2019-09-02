@@ -37,7 +37,7 @@ authApp.get('/reddit/callback', async (request, response) => {
 	request.session.redditRefreshToken = data.refresh_token;
 
 	// The user is now authorized!
-	response.redirect('/');
+	response.redirect('/form');
 });
 
 // Deletes session
