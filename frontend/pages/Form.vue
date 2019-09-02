@@ -1,7 +1,9 @@
 <template>
 	<section class="section has-text-centered">
-		<h1>/r/anime Classic Anime Survey</h1>
+		<h1 class="title">/r/anime Classic Anime Survey</h1>
 		<p>It's easy! Pick up to ten anime below that you think are the "most classic" anime of all time.</p>
+		<br>
+		<br>
 		<show-picker v-model="selections"/>
 		<div class="footer">
 			<button :class="['button is-success is-large', {'is-loading': loading}]" :disabled="!changed" @click="submitForm">
