@@ -3,8 +3,8 @@
 		<div class="container">
 			<div class="content has-text-centered">
 				<h1>Classics survey!</h1>
-				<p>Why are you here?</p>
-				<p><a href="/auth/reddit" class="button is-primary">Fill out the survey!</a></p>
+				<p>Click the button below to get started.</p>
+				<p><a :href="me ? '/form' : '/auth/reddit'" class="button is-primary">Fill out the survey!</a></p>
 			</div>
 			<!-- <pre>{{info}}</pre> -->
 		</div>
