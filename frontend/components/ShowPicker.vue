@@ -72,7 +72,7 @@ const showSearchQuery = `
             pageInfo {
                 total
             }
-            results: media (type: ANIME, search: $search, startDate_lesser: 20170930) {
+            results: media (type: ANIME, search: $search, startDate_lesser: 20200101, startDate_greater: 20091231) {
                 id
                 format
                 startDate {
