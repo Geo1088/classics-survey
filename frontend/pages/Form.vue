@@ -24,7 +24,7 @@ const idSearchQuery = `
             pageInfo {
                 total
             }
-            results: media (type: ANIME, id_in: $ids, startDate_lesser: 20170930) {
+            results: media (type: ANIME, id_in: $ids) {
                 id
                 format
                 startDate {
