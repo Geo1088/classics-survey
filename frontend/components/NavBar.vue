@@ -3,7 +3,7 @@
 		<div :class="['container', {'is-fullwidth': fullwidth}]">
 			<div class="navbar-brand">
 				<span class="navbar-item">
-					<h1 class="is-size-4">/r/anime Classics Survey</h1>
+					<h1 class="is-size-4">/r/anime 2010s Survey</h1>
 				</span>
 				<a
 					@click="expanded = !expanded"

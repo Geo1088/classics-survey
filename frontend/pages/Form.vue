@@ -1,7 +1,7 @@
 <template>
 	<section class="section has-text-centered">
-		<h1 class="title">/r/anime Classic Anime Survey</h1>
-		<p>It's easy! Pick up to ten anime below that you think are the "most classic" anime of all time.</p>
+		<h1 class="title">/r/anime 2010s Anime Survey</h1>
+		<p>It's easy! Pick up to ten anime below that you really enjoyed from the last 10 years.</p>
 		<br>
 		<br>
 		<show-picker v-model="selections"/>
