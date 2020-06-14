@@ -1,7 +1,7 @@
 <template>
 	<section class="section has-text-centered">
 		<h1 class="title">/r/anime Movie Survey</h1>
-		<p>It's easy! Pick up to ten anime movies below that you really enjoyed from the last 10 years.</p>
+		<p>It's easy! Pick your ten favorite anime movies of all time below.</p>
 		<br>
 		<br>
 		<show-picker v-model="selections"/>
